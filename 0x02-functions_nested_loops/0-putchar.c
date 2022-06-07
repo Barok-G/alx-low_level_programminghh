@@ -3,7 +3,7 @@
  * main - prints the string "_putchar" from a character array.
  * Return: 0 on success.
  */
-int _putchar()
+int main(void)
 {
 	char c[] = "_putchar";
 	int i;
