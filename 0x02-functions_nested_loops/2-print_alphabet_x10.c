@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * This function checks the letter whether it is lowercase or uppercase
- * it returns nothing.
- */
+  * print_alphabet_x10 - repeats the print_alphabet 10 times.
+  * Return: Nothing.
+  */
 void print_alphabet_x10(void)
 {
 	int i;
@@ -13,9 +13,8 @@ void print_alphabet_x10(void)
 	{
 		for (c = 'a'; c <= 'z' ; c++)
 		{ 
-		_putchar(c);
+		 _putchar(c);
 		}
-	
- _putchar('\n');
+		 _putchar('\n');
 	}
 }
