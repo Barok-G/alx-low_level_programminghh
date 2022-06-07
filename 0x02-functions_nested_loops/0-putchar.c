@@ -1,13 +1,14 @@
-#include<main.h>
+#include "main.h"
 /*including
  * themain
  * file*/
-int main(){
+int main(void){
 	int i;
-char Array[]={"_putchar"};
+char c[]={"_putchar"};
 for(i=0;i<=7;i++)
 {
-        putchar(Array[i]);
+      _putchar(c[i]);
+
 }
 return 0;
 }
