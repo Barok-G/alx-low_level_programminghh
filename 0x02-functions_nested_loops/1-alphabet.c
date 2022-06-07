@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * void print_aplphabet(void) will print alphabet
- * and it doesnt have return value
+ * print_alphabet - prints the english alphabet from a-z.
+ * Return: Nothing.
  */
 void print_alphabet(void)
 {
