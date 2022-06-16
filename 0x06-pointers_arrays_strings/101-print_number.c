@@ -1,10 +1,12 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdio.h>
+
 /**
  *print_number - prints integers
  *@n: number to be printed
  *Return: nothing
  */
-void print_number(int n)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	unsigned int x = n;
 
